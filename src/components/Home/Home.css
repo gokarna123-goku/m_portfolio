@@ -6,6 +6,8 @@
     background: url("../../assets/hero.png") no-repeat;
     background-position: center center;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 
