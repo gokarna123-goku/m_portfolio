@@ -6,8 +6,9 @@ const Home = () => {
     <>
       <div className="hero_img px-32">
         <div className="w-2/5">
+            <h6 className="text-slate-400 mb-2 text-xl">Hey 👋 There, I'm</h6>
           <h1 className="text-slate-100 text-7xl font-black leading-[5.2rem] tracking-wider">
-            Gokarna Bdr. Adhikari
+            Mr. Gokarna Adhikari!
           </h1>
         </div>
       </div>

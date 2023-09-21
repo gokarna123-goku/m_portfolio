@@ -13,6 +13,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+::-webkit-scrollbar{
+  width: 8px;
+}
+
 
 .main_section{
   background: #1f1f38;
