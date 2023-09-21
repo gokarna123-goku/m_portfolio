@@ -13,9 +13,30 @@
   font-family: 'Roboto', sans-serif;
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   width: 8px;
+} */
+
+/* Custom Scrollbar */
+::-webkit-scrollbar{
+  width: 10px;
+  background: #1f1f38;
 }
+
+::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #262644;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #292947;
+  border-radius: 10px;
+}
+
+/*  */
 
 
 .main_section{
