@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Router>
-        <Home />
+        <div className="w-full bg-blue-950 min-h-screen">
+          <Home />
+        </div>
       </Router>
     </>
   );
