@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className="w-full bg-blue-950 min-h-screen">
+        <div className="main_section w-full min-h-screen">
           <Home />
         </div>
       </Router>

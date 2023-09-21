@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
+import "./Home.css";
 
 const Home = () => {
   return (
     <>
-    <div className="bg-indigo-950 w-full">
-        Hello there
-    </div>
+      <div className="w-full hero_img">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit id at enim
+        harum tenetur perferendis blanditiis laboriosam sunt quisquam odio?
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
