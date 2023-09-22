@@ -1,4 +1,6 @@
 /*  */
-
+.divider{
+    background: linear-gradient(to right, #020617, #111827, #374151, #111827, #020617);
+}
 
 /*  */
