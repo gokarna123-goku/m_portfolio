@@ -8,7 +8,7 @@ function App() {
     <>
       <Router>
         <div className="main_section w-full min-h-screen">
-          <Header />
+          {/* <Header /> */}
           <Home />
         </div>
       </Router>
