@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
 
 function App() {
   const [isFixed, setIsFixed] = useState(false);
@@ -37,9 +38,10 @@ function App() {
     <>
       <Router>
         <div className="main_section w-full min-h-screen">
-        {!isFixed ? "" : <Header />}
+          {!isFixed ? "" : <Header />}
           {/* <Header /> */}
           <Home />
+          <About />
           <Footer />
         </div>
       </Router>
