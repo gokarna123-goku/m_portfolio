@@ -7,40 +7,40 @@ import About from "./components/About/About";
 import SkillExperience from "./components/Skill_Experience/SkillExperience";
 
 function App() {
-  const [isFixed, setIsFixed] = useState(false);
+  // const [isFixed, setIsFixed] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY >= 80) {
-        setIsFixed(true);
-      } else {
-        setIsFixed(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY >= 80) {
+  //       setIsFixed(true);
+  //     } else {
+  //       setIsFixed(false);
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
-  const navbar = {
-    transition: "0.5s ease-out",
-  };
+  // const navbar = {
+  //   transition: "0.5s ease-out",
+  // };
 
-  if (isFixed) {
-    navbar.position = "nav_fixed";
-    navbar.top = 0;
-  }
+  // if (isFixed) {
+  //   navbar.position = "nav_fixed";
+  //   navbar.top = 0;
+  // }
 
   //
   return (
     <>
       <Router>
         <div className="main_section w-full min-h-screen">
-          {!isFixed ? "" : <Header />}
-          {/* <Header /> */}
+          {/* {!isFixed ? "" : <Header />} */}
+          <Header />
           <Home />
           <About />
           <SkillExperience />
