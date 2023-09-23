@@ -8,7 +8,7 @@ const SkillExperience = () => {
           <h1 className="text-slate-100 text-center text-5xl font-extrabold tracking-wider mb-12">
             Explore Skill & Experience
           </h1>
-          <div className="flex items-start gap-10">
+          <div className="flex items-start gap-12">
             <div className="skill-box w-[65%] h-auto py-2">
               <div className="flex items-start gap-12">
                 <div className="w-1/2 bg-green-900/20 shadow p-4 rounded-md">
@@ -82,7 +82,9 @@ const SkillExperience = () => {
                 My Experience
               </h1>
               <div className="w-full bg-green-900/20 shadow p-4 rounded-md">
-                
+                <h1 className="text-[1.35rem] text-gray-300 font-medium tracking-wider mb-1">Sr. Front-End Developer</h1>
+                <h6 className="text-base text-gray-400 italic mb-1">Full Time / Office</h6>
+                <p className="text-base text-gray-300 mb-5">2021 - 2023</p>
               </div>
             </div>
           </div>
