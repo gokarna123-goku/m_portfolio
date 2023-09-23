@@ -42,18 +42,48 @@ const SkillExperience = () => {
                       <div className="indicator bg-green-600 w-[92%] h-[0.35rem] rounded-l-full"></div>
                     </div>
                   </div>
+                  <div className="mb-4">
+                    <div className="flex items-center justify-between pr-2 mb-1">
+                      <h6 className="text-base text-gray-300">Tailwind</h6>
+                      <p className="text-lg text-gray-400">88%</p>
+                    </div>
+                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
+                      <div className="indicator bg-green-600 w-[88%] h-[0.35rem] rounded-l-full"></div>
+                    </div>
+                  </div>
                 </div>
-                <div className="w-1/2 bg-slate-800 p-2 rounded-md">
-                  <h1 className="text-xl font-normal text-gray-400">
+                <div className="w-1/2 bg-green-900/20 shadow p-4 rounded-md">
+                  <h1 className="text-xl font-normal text-gray-400 mb-3">
                     Professional Skills
                   </h1>
+                  <div className="mb-4">
+                    <div className="flex items-center justify-between pr-2 mb-1">
+                      <h6 className="text-base text-gray-300">Communication</h6>
+                      <p className="text-lg text-gray-400">90%</p>
+                    </div>
+                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
+                      <div className="indicator bg-green-600 w-[90%] h-[0.35rem] rounded-l-full"></div>
+                    </div>
+                  </div>
+                  <div className="mb-4">
+                    <div className="flex items-center justify-between pr-2 mb-1">
+                      <h6 className="text-base text-gray-300">Leasership</h6>
+                      <p className="text-lg text-gray-400">80%</p>
+                    </div>
+                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
+                      <div className="indicator bg-green-600 w-[80%] h-[0.35rem] rounded-l-full"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="experience-box w-[35%] h-auto bg-indigo-700 rounded">
-              <h1 className="text-xl font-normal text-slate-300 mb-5">
+            <div className="experience-box w-[35%] h-auto rounded">
+              <h1 className="text-xl font-normal text-gray-400 mb-5">
                 My Experience
               </h1>
+              <div className="w-full bg-green-900/20 shadow p-4 rounded-md">
+                
+              </div>
             </div>
           </div>
         </div>
