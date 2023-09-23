@@ -90,6 +90,11 @@ const SkillExperience = () => {
                     Full Time / Office
                   </h6>
                   <p className="text-base text-gray-300 mb-5">2021 - 2023</p>
+                  <hr className="my-5 h-0.5 border-t-0 bg-green-200/40 opacity-100 dark:opacity-50" />
+                  <p className="text-[0.95rem] text-gray-500 mb-3">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Dolor, iste? Lorem ipsum dolor sit amet...
+                  </p>
                 </div>
               </div>
             </div>
