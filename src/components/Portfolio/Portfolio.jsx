@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Eye } from "react-bootstrap-icons";
+import { Eye, ArrowRight } from "react-bootstrap-icons";
 
 const Portfolio = () => {
   return (
@@ -25,8 +25,11 @@ const Portfolio = () => {
                 <p className="text-gray-300 text-sm">10k</p>
               </div>
             </div>
-            <Link className="text-gray-100/60 text-2xl font-medium tracking-wide mb-1">
+            <h1 className="text-gray-100/60 text-2xl font-medium tracking-wide mb-4">
               Multi-Vendor Shoes Store Website
+            </h1>
+            <Link className="text-green-400 text-[1.1rem] flex items-center gap-1 mb-3">
+              Read more <ArrowRight />
             </Link>
           </div>
           <div className="w-[31%] flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
@@ -34,7 +37,7 @@ const Portfolio = () => {
               <img
                 src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
                 alt="Portfolio Image"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-center hover:rotate-6 hover:scale-125 ease-out duration-700"
               />
             </div>
             <div className="w-full h-auto flex items-center justify-between mb-5 px-1">
@@ -53,7 +56,7 @@ const Portfolio = () => {
               <img
                 src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
                 alt="Portfolio Image"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-center hover:rotate-6 hover:scale-125 ease-out duration-700"
               />
             </div>
             <div className="w-full h-auto flex items-center justify-between mb-5 px-1">
