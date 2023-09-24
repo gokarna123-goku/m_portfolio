@@ -11,7 +11,9 @@ const Portfolio = () => {
         <SinglePortfolio />
         <SinglePortfolio />
         <div className="flex items-center justify-center">
-        <button className="bg-transparent hover:bg-green-500/10 border-2 border-green-600 ease-out duration-700 px-7 py-2 rounded text-lg text-gray-300">Load more</button>
+          <button className="bg-transparent hover:bg-green-500/10 border-2 border-green-600 ease-out duration-700 px-7 py-2 rounded text-lg text-gray-300">
+            Load more
+          </button>
         </div>
       </div>
     </>
