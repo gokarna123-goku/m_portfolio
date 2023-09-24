@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import SkillExperience from "./components/Skill_Experience/SkillExperience";
+import Service from "./components/Service/Service";
 
 function App() {
   // const [isFixed, setIsFixed] = useState(false);
@@ -44,6 +45,7 @@ function App() {
           <Home />
           <About />
           <SkillExperience />
+          <Service />
           <Footer />
         </div>
       </Router>

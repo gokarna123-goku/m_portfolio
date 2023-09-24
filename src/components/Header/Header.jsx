@@ -27,7 +27,7 @@ const Header = () => {
         </li>
         <li>
           <Link
-            to="#about"
+            to="#service"
             className="text-slate-400 text-xl font-normal hover:text-green-400 active:text-green-400 focus:outline-none"
           >
             Services
@@ -35,7 +35,7 @@ const Header = () => {
         </li>
         <li>
           <Link
-            to="#about"
+            to="#portfolio"
             className="text-slate-400 text-xl font-normal hover:text-green-400 active:text-green-400 focus:outline-none"
           >
             Portfolio
@@ -43,7 +43,7 @@ const Header = () => {
         </li>
         <li>
           <Link
-            to="#about"
+            to="#blog"
             className="text-slate-400 text-xl font-normal hover:text-green-400 active:text-green-400 focus:outline-none"
           >
             Blog
@@ -51,7 +51,7 @@ const Header = () => {
         </li>
         <li>
           <Link
-            to="#about"
+            to="#contact"
             className="text-slate-400 text-xl font-normal hover:text-green-400 active:text-green-400 focus:outline-none"
           >
             Contact
