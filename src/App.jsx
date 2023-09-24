@@ -8,6 +8,7 @@ import SkillExperience from "./components/Skill_Experience/SkillExperience";
 import Service from "./components/Service/Service";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Blog from "./components/Blog/Blog";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   // const [isFixed, setIsFixed] = useState(false);
@@ -50,6 +51,7 @@ function App() {
           <Service />
           <Portfolio />
           <Blog />
+          <Contact />
           <Footer />
         </div>
       </Router>
