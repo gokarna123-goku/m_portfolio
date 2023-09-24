@@ -8,8 +8,8 @@ const Portfolio = () => {
           Our Works
         </h1>
         <div className="w-full h-auto">
-          <div className="w-[30%] flex items-start flex-col shadow border-2 border-gray-700/30 ease-out duration-700 rounded-md p-3">
-            <div className="w-full h-[25vh] bg-green-900/20 rounded-md mb-4 overflow-hidden">
+          <div className="w-[30%] flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
+            <div className="w-full h-[30vh] bg-green-900/20 rounded-md mb-4 overflow-hidden">
               <img
                 src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
                 alt="Portfolio Image"
