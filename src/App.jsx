@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import SkillExperience from "./components/Skill_Experience/SkillExperience";
 import Service from "./components/Service/Service";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
   // const [isFixed, setIsFixed] = useState(false);
@@ -46,6 +47,7 @@ function App() {
           <About />
           <SkillExperience />
           <Service />
+          <Portfolio />
           <Footer />
         </div>
       </Router>
