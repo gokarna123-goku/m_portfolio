@@ -15,8 +15,8 @@ const Contact = () => {
       <div className="w-full h-auto flex items-center justify-between gap-10">
         <div className="w-[45%] h-auto">
           <iframe
-            class="w-full aspect-[16/14] rounded-md"
-            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=k&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            class="w-full aspect-[16/13] rounded-md"
+            src="https://maps.google.com/maps?hl=en&amp;q=University of Oxford&amp;t=k&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
         <div className="w-[50%] h-auto bg-green-700/10 py-6 px-8 rounded-md shadow">
