@@ -1,4 +1,6 @@
 import React from "react";
+import SingleBlog from "./SingleBlog/SingleBlog";
+
 
 const Blog = () => {
   return (
@@ -7,6 +9,13 @@ const Blog = () => {
         <h1 className="text-slate-100 text-5xl text-center font-extrabold tracking-wider mb-12">
           Recent Blog
         </h1>
+        <SingleBlog />
+        <SingleBlog />
+        <div className="flex items-center justify-center">
+          <button className="bg-transparent hover:bg-green-500/10 border-2 border-green-600 ease-out duration-700 px-7 py-2 rounded text-lg text-gray-300">
+            Load more
+          </button>
+        </div>
       </div>
     </>
   );
