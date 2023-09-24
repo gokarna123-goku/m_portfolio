@@ -59,6 +59,7 @@ const Contact = () => {
               placeholder="Type a message..."
             ></textarea>
           </div>
+          <button className="bg-green-600 px-10 py-2 rounded text-lg text-gray-950">Submit</button>
         </div>
       </div>
     </div>
