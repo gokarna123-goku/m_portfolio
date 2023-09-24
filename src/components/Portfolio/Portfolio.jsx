@@ -35,7 +35,7 @@ const Portfolio = () => {
           <div className="w-[31%] flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
             <div className="w-full h-[30vh] bg-green-900/20 rounded-md mb-5 overflow-hidden">
               <img
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
                 alt="Portfolio Image"
                 className="w-full h-full object-cover object-center hover:rotate-6 hover:scale-125 ease-out duration-700"
               />
@@ -47,8 +47,11 @@ const Portfolio = () => {
                 <p className="text-gray-300 text-sm">10k</p>
               </div>
             </div>
-            <Link className="text-gray-100/60 text-2xl font-medium tracking-wide mb-1">
-              Multi-Vendor Shoes Store Website
+            <h1 className="text-gray-100/60 text-2xl font-medium tracking-wide mb-4">
+              PS5 Gaming Controller Store Website
+            </h1>
+            <Link className="text-green-400 text-[1.1rem] flex items-center gap-1 mb-3">
+              Read more <ArrowRight />
             </Link>
           </div>
           <div className="w-[31%] flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
@@ -66,8 +69,11 @@ const Portfolio = () => {
                 <p className="text-gray-300 text-sm">10k</p>
               </div>
             </div>
-            <Link className="text-gray-100/60 text-2xl font-medium tracking-wide mb-1">
+            <h1 className="text-gray-100/60 text-2xl font-medium tracking-wide mb-4">
               Multi-Vendor Shoes Store Website
+            </h1>
+            <Link className="text-green-400 text-[1.1rem] flex items-center gap-1 mb-3">
+              Read more <ArrowRight />
             </Link>
           </div>
         </div>
