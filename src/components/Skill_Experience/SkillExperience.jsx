@@ -1,4 +1,6 @@
 import React from "react";
+import Skill from "./Skill/Skill";
+import Experience from "./Experience/Experience";
 
 const SkillExperience = () => {
   return (
@@ -9,99 +11,8 @@ const SkillExperience = () => {
             Explore Skill & Experience
           </h1>
           <div className="flex items-start gap-12">
-            <div className="skill-box w-[65%] h-auto py-2">
-              <div className="flex items-start gap-12">
-                <div className="w-1/2 bg-green-900/20 shadow p-4 rounded-md">
-                  <h1 className="text-xl font-normal text-gray-400 mb-3">
-                    Technological Skills
-                  </h1>
-                  <div className="mb-4">
-                    <div className="flex items-center justify-between pr-2 mb-1">
-                      <h6 className="text-base text-gray-300">ReactJs</h6>
-                      <p className="text-lg text-gray-400">85%</p>
-                    </div>
-                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
-                      <div className="indicator bg-green-600 w-[85%] h-[0.35rem] rounded-l-full"></div>
-                    </div>
-                  </div>
-                  <div className="mb-4">
-                    <div className="flex items-center justify-between pr-2 mb-1">
-                      <h6 className="text-base text-gray-300">NodeJs</h6>
-                      <p className="text-lg text-gray-400">80%</p>
-                    </div>
-                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
-                      <div className="indicator bg-green-600 w-[80%] h-[0.35rem] rounded-l-full"></div>
-                    </div>
-                  </div>
-                  <div className="mb-4">
-                    <div className="flex items-center justify-between pr-2 mb-1">
-                      <h6 className="text-base text-gray-300">Django</h6>
-                      <p className="text-lg text-gray-400">92%</p>
-                    </div>
-                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
-                      <div className="indicator bg-green-600 w-[92%] h-[0.35rem] rounded-l-full"></div>
-                    </div>
-                  </div>
-                  <div className="mb-4">
-                    <div className="flex items-center justify-between pr-2 mb-1">
-                      <h6 className="text-base text-gray-300">Tailwind</h6>
-                      <p className="text-lg text-gray-400">88%</p>
-                    </div>
-                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
-                      <div className="indicator bg-green-600 w-[88%] h-[0.35rem] rounded-l-full"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-1/2 bg-green-900/20 shadow p-4 rounded-md">
-                  <h1 className="text-xl font-normal text-gray-400 mb-3">
-                    Professional Skills
-                  </h1>
-                  <div className="mb-4">
-                    <div className="flex items-center justify-between pr-2 mb-1">
-                      <h6 className="text-base text-gray-300">Communication</h6>
-                      <p className="text-lg text-gray-400">90%</p>
-                    </div>
-                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
-                      <div className="indicator bg-green-600 w-[90%] h-[0.35rem] rounded-l-full"></div>
-                    </div>
-                  </div>
-                  <div className="mb-4">
-                    <div className="flex items-center justify-between pr-2 mb-1">
-                      <h6 className="text-base text-gray-300">Leasership</h6>
-                      <p className="text-lg text-gray-400">80%</p>
-                    </div>
-                    <div className="progress w-full h-auto bg-slate-400 rounded-full">
-                      <div className="indicator bg-green-600 w-[80%] h-[0.35rem] rounded-l-full"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="experience-box w-[35%] h-auto rounded">
-              <h1 className="text-xl font-normal text-gray-400 mb-5">
-                My Experience
-              </h1>
-              <div className="w-full bg-green-900/20 shadow p-4 rounded-md">
-                <h1 className="text-[1.35rem] text-green-400 font-medium tracking-wider mb-1">
-                  Sr. Front-End Developer
-                </h1>
-                <h6 className="text-base text-gray-400 italic mb-1">
-                  Full Time / Office
-                </h6>
-                <p className="text-base text-gray-300 mb-5">2021 - 2023</p>
-                <hr className="my-5 h-0.5 border-t-0 bg-green-200/40 opacity-100 dark:opacity-50" />
-                <p className="text-[0.95rem] text-gray-500 mb-5">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dolor, iste? Lorem ipsum dolor sit amet...
-                </p>
-                <div className="flex items-center gap-4 mb-3">
-                  <div className="bg-slate-700/50 text-green-300 py-[0.15rem] px-2 rounded text-[0.8rem] cursor-pointer">Django</div>
-                  <div className="bg-slate-700/50 text-green-300 py-[0.15rem] px-2 rounded text-[0.8rem] cursor-pointer">MySQL</div>
-                  <div className="bg-slate-700/50 text-green-300 py-[0.15rem] px-2 rounded text-[0.8rem] cursor-pointer">Ajax</div>
-                  <div className="bg-slate-700/50 text-green-300 py-[0.15rem] px-2 rounded text-[0.8rem] cursor-pointer">Tailwind</div>
-                </div>
-              </div>
-            </div>
+            <Skill />
+            <Experience />
           </div>
         </div>
       </div>
