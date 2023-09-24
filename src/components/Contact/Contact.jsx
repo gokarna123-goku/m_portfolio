@@ -12,8 +12,13 @@ const Contact = () => {
       <h1 className="text-slate-100 text-5xl text-center font-extrabold tracking-wider mb-12">
         Contact Me
       </h1>
-      <div className="w-full h-auto flex items-start justify-between gap-10">
-        <div className="w-[40%] h-auto bg-green-600/10">Hello data</div>
+      <div className="w-full h-auto flex items-center justify-between gap-10">
+        <div className="w-[45%] h-auto">
+          <iframe
+            class="w-full aspect-[16/14] rounded-md"
+            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=k&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
         <div className="w-[50%] h-auto bg-green-700/10 py-6 px-8 rounded-md shadow">
           <h2 className="text-gray-300 text-2xl font-medium mb-5">
             Write a message
@@ -59,7 +64,9 @@ const Contact = () => {
               placeholder="Type a message..."
             ></textarea>
           </div>
-          <button className="bg-green-600 px-10 py-2 rounded text-lg text-gray-950">Submit</button>
+          <button className="bg-green-600 px-10 py-2 rounded text-lg text-gray-950">
+            Submit
+          </button>
         </div>
       </div>
     </div>
