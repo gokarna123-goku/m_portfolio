@@ -29,7 +29,7 @@ const Contact = () => {
             </div>
             <input
               type="text"
-              className="w-[90%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-500 placeholder:text-gray-500"
+              className="w-[90%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
               placeholder="Enter your fullname"
             />
           </div>
@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             <input
               type="text"
-              className="w-[85%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-500 placeholder:text-gray-500"
+              className="w-[85%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
               placeholder="Enter your email id"
             />
           </div>
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <input
               type="text"
-              className="w-[85%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-500 placeholder:text-gray-500"
+              className="w-[85%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
               placeholder="Enter your email id"
             />
           </div>
@@ -60,7 +60,7 @@ const Contact = () => {
             <textarea
               cols="30"
               rows="4"
-              className="w-[90%] h-full outline-none border-none bg-transparent p-4 text-base text-gray-500 placeholder:text-gray-500 resize-none"
+              className="w-[90%] h-full outline-none border-none bg-transparent p-4 text-base text-gray-400/70 placeholder:text-gray-400/70 resize-none"
               placeholder="Type a message..."
             ></textarea>
           </div>
