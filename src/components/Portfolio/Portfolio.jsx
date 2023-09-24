@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Eye } from "react-bootstrap-icons";
 
 const Portfolio = () => {
@@ -19,14 +20,14 @@ const Portfolio = () => {
             </div>
             <div className="w-full h-auto flex items-center justify-between mb-5 px-1">
               <h6 className="text-green-600 text-sm">web development</h6>
-              <div className="flex items-center gap-1">
-                <Eye className="text-gray-300 text-sm" />
+              <div className="flex items-center gap-1 cursor-pointer">
+                <Eye className="text-gray-300 text-base" />
                 <p className="text-gray-300 text-sm">10k</p>
               </div>
             </div>
-            <h1 className="text-green-600 text-2xl font-medium tracking-wide">
-              E-Commerce Website
-            </h1>
+            <Link className="text-gray-100/60 text-2xl font-medium tracking-wide mb-1">
+              Multi-Vendor Shoes Store Website
+            </Link>
           </div>
         </div>
       </div>
