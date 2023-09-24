@@ -21,6 +21,7 @@ const Portfolio = () => {
               <h6 className="text-green-600 text-sm">web development</h6>
               <div className="flex items-center gap-1">
                 <Eye className="text-gray-300 text-sm" />
+                <p className="text-gray-300 text-sm">10k</p>
               </div>
             </div>
             <h1 className="text-green-600 text-2xl font-medium tracking-wide">
