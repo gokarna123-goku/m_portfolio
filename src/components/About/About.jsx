@@ -5,7 +5,7 @@ import { Check } from "react-bootstrap-icons";
 const About = () => {
   return (
     <>
-      <div className="p-32 ">
+      <div className="p-32" id="about">
         <div className="flex items-center justify-between gap-10">
           <div className="w-[43%] h-[34rem] bg-green-800/10 rounded-md">
             <img

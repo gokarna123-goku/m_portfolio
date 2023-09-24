@@ -38,7 +38,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className="main_section w-full min-h-screen">
+        <div className="main_section w-full min-h-screen scroll-smooth">
           {/* {!isFixed ? "" : <Header />} */}
           <Header />
           <Home />
