@@ -8,14 +8,14 @@ import {
 
 const Contact = () => {
   return (
-    <div className="px-32 p-16">
-      <h1 className="text-slate-100 text-5xl text-center font-extrabold tracking-wider mb-12">
+    <div className="lg:px-32 md:px-16 sm:px-10 px-10 p-16">
+      <h1 className="text-slate-100  lg:text-5xl md:text-5xl sm:text-4xl text-4xl text-center font-extrabold tracking-wider mb-12">
         Contact Me
       </h1>
-      <div className="w-full h-auto flex items-center justify-between gap-10">
-        <div className="w-[45%] h-auto">
+      <div className="w-full h-auto flex items-center justify-between lg:flex-row md:flex-row sm:flex-col flex-col gap-10">
+        <div className="lg:w-[45%] md:w-[45%] sm:w-full w-full h-auto">
           <iframe
-            class="w-full aspect-[16/13] rounded-md"
+            className="w-full aspect-[16/13] rounded-md"
             src="https://maps.google.com/maps?hl=en&amp;q=University of Oxford&amp;t=k&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
