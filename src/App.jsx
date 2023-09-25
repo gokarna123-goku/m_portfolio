@@ -44,15 +44,15 @@ function App() {
       <Router>
         <div className="main_section w-full min-h-screen scroll-smooth">
           {/* {!isFixed ? "" : <Header />} */}
-          <Header />
+          {/* <Header /> */}
           <Home />
           <About />
-          <SkillExperience />
+          {/* <SkillExperience /> */}
           <Service />
           <Portfolio />
           <Blog />
           <Contact />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     </>
