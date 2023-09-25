@@ -10,5 +10,21 @@
     align-items: center;
 }
 
+@media screen and ( max-width: 768px ){
+    .hero_img{
+        background-position: center right;
+    }
+}
+@media screen and ( max-width: 640px ){
+    .hero_img{
+        background-position: right center;
+    }
+}
+@media screen and ( max-width: 425px ){
+    .hero_img{
+        background-position: center center;
+    }
+}
+
 
 /*  */
