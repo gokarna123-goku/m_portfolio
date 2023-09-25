@@ -52,7 +52,7 @@ function App() {
           <Portfolio />
           <Blog />
           <Contact />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </Router>
     </>
