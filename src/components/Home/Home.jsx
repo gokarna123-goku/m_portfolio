@@ -16,7 +16,7 @@ const Home = () => {
           <h1 className="text-slate-100 text-8xl font-black leading-[7.3rem] tracking-[0.12rem] mb-8">
             Mr. <span className="text-green-400">Gokarna</span> Adhikari!
           </h1>
-          <Link className="flex items-center text-xl text-green-500 text-left font-medium px-0 py-2 rounded-md hover:text-green-400 ease-out duration-1000">
+          <Link className="flex items-center text-xl text-green-500 text-left font-medium px-0 py-2 rounded-md hover:text-green-600 ease-out duration-1000">
             Say Hello <ArrowUpRight className="ms-2 text-lg" />
           </Link>
         </div>
