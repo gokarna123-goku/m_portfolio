@@ -29,7 +29,7 @@ import UxUi from "../../../assets/design.png";
 const SingleService = () => {
   return (
     <div className="flex items-start justify-center gap-12 flex-wrap">
-      <div className="w-[30%] flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded py-12 px-8">
+      <div className="lg:w-[30%] md:w-[30%] sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
         <div className="w-[60px] h-[60px] flex items-center justify-center gap-1 bg-green-500/40 rounded mb-6">
           <img
             src={Web}
@@ -37,7 +37,7 @@ const SingleService = () => {
             className="w-[50px] h-[50px] object-cover object-center"
           />
         </div>
-        <h1 className="text-gray-300 text-2xl font-medium tracking-wider mb-3">
+        <h1 className="text-gray-300 text-2xl text-center font-medium tracking-wider mb-3">
           Website Development
         </h1>
         <p className="text-base text-gray-500 text-center mb-5">
@@ -48,7 +48,7 @@ const SingleService = () => {
           Read more <ArrowRight />
         </Link>
       </div>
-      <div className="w-[30%] flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded py-12 px-8">
+      <div className="lg:w-[30%] md:w-[30%] sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
         <div className="w-[60px] h-[60px] flex items-center justify-center gap-1 bg-green-500/40 rounded mb-6">
           <img
             src={App}
@@ -56,7 +56,7 @@ const SingleService = () => {
             className="w-[50px] h-[50px] object-cover object-center"
           />
         </div>
-        <h1 className="text-gray-300 text-2xl font-medium tracking-wider mb-3">
+        <h1 className="text-gray-300 text-2xl text-center font-medium tracking-wider mb-3">
           Mobile App Development
         </h1>
         <p className="text-base text-gray-500 text-center mb-5">
@@ -67,7 +67,7 @@ const SingleService = () => {
           Read more <ArrowRight />
         </Link>
       </div>
-      <div className="w-[30%] flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded py-12 px-8">
+      <div className="lg:w-[30%] md:w-[30%] sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
         <div className="w-[60px] h-[60px] flex items-center justify-center gap-1 bg-green-500/40 rounded mb-6">
           <img
             src={UxUi}
@@ -75,7 +75,7 @@ const SingleService = () => {
             className="w-[50px] h-[50px] object-cover object-center"
           />
         </div>
-        <h1 className="text-gray-300 text-2xl font-medium tracking-wider mb-3">
+        <h1 className="text-gray-300 text-2xl text-center font-medium tracking-wider mb-3">
           Ux/Ui Design
         </h1>
         <p className="text-base text-gray-500 text-center mb-5">
