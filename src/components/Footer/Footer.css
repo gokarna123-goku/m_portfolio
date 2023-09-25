@@ -3,4 +3,21 @@
     background: linear-gradient(to right, #020617, #111827, #374151, #111827, #020617);
 }
 
+
+@media screen and ( max-width: 768px ){
+    .divider{
+        background: linear-gradient(to right, #020617, #374151, #020617);
+    }
+}
+@media screen and ( max-width: 640px ){
+    .divider{
+        background: linear-gradient(to right, #020617, #374151, #020617);
+    }
+}
+@media screen and ( max-width: 425px ){
+    .divider{
+        background: linear-gradient(to right, #020617, #374151, #020617);
+    }
+}
+
 /*  */
