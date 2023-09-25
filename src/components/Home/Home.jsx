@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <div className="hero_img px-32 relative">
         {/* <div className="animate-ping h-16 w-16 rounded-full absolute top-80 left-10 bg-sky-400 duration-1000 ease-out delay-1000 opacity-5"></div> */}
-        <div className="w-2/4">
+        <div className="w-2/4 mt-8">
           {/* <h6 className="text-slate-400 mb-2 text-xl">Hey 👋 There, It's</h6> */}
           <p className="text-gray-400  text-2xl font-medium tracking-[0.05rem] mb-4">
             Meet a Front~End Developer💻,
