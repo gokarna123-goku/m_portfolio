@@ -34,33 +34,33 @@ const Contact = () => {
             />
           </div>
           <div className="flex items-center bg-slate-700/40 rounded w-full h-[50px] overflow-hidden mb-6">
-            <div className="w-[8%] h-full p-3 bg-green-400/10">
+            <div className="lg:w-[8%] md:w-[9%] sm:w-[12%] w-[12%] h-full lg:p-3 md:p-2 sm:p-1 p-1 bg-green-400/10">
               <EnvelopePaperFill className="w-full h-full text-gray-900" />
             </div>
             <input
               type="text"
-              className="w-[85%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
+              className="lg:w-[90%] md:w-[90%] sm:w-[87%] w-[87%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
               placeholder="Enter your email id"
             />
           </div>
           <div className="flex items-center bg-slate-700/40 rounded w-full h-[50px] overflow-hidden mb-6">
-            <div className="w-[8%] h-full p-3 bg-green-400/10">
+            <div className="lg:w-[8%] md:w-[9%] sm:w-[12%] w-[12%] h-full lg:p-3 md:p-2 sm:p-1 p-1 bg-green-400/10">
               <TelephoneFill className="w-full h-full text-gray-900 text-sm" />
             </div>
             <input
               type="text"
-              className="w-[85%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
+              className="lg:w-[90%] md:w-[90%] sm:w-[87%] w-[87%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
               placeholder="Enter your email id"
             />
           </div>
           <div className="flex items-start bg-slate-700/40 rounded w-full h-[120px] overflow-hidden mb-6">
-            <div className="w-[8%] h-auto p-3 bg-green-400/10">
+            <div className="lg:w-[8%] md:w-[9%] sm:w-[12%] w-[12%] h-auto lg:p-3 md:p-2 sm:p-1 p-1 bg-green-400/10">
               <ChatDotsFill className="w-full h-full text-gray-900 text-sm" />
             </div>
             <textarea
               cols="30"
               rows="4"
-              className="w-[90%] h-full outline-none border-none bg-transparent p-4 text-base text-gray-400/70 placeholder:text-gray-400/70 resize-none"
+              className="lg:w-[90%] md:w-[90%] sm:w-[87%] w-[87%] h-full outline-none border-none bg-transparent p-4 text-base text-gray-400/70 placeholder:text-gray-400/70 resize-none"
               placeholder="Type a message..."
             ></textarea>
           </div>
