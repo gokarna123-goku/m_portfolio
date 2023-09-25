@@ -19,17 +19,17 @@ const Contact = () => {
             src="https://maps.google.com/maps?hl=en&amp;q=University of Oxford&amp;t=k&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
-        <div className="w-[50%] h-auto bg-green-700/10 py-6 px-8 rounded-md shadow">
+        <div className="lg:w-[50%] md:w-[50%] sm:w-full w-full h-auto bg-green-700/10 lg:py-6 md:py-5 sm:py-3 py-3 lg:px-8 md:px-7 sm:px-3 px-3 rounded-md shadow">
           <h2 className="text-gray-300 text-2xl font-medium mb-5">
             Write a message
           </h2>
           <div className="flex items-center bg-slate-700/40 rounded w-full h-[50px] overflow-hidden mb-6">
-            <div className="w-[8%] h-full p-3 bg-green-400/10">
+            <div className="lg:w-[8%] md:w-[9%] sm:w-[12%] w-[12%] h-full lg:p-3 md:p-2 sm:p-1 p-1 bg-green-400/10">
               <PersonFill className="w-full h-full text-gray-900 text-[0.6rem]" />
             </div>
             <input
               type="text"
-              className="w-[90%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
+              className="lg:w-[90%] md:w-[90%] sm:w-[87%] w-[87%] h-full bg-transparent border-none outline-none px-4 text-base text-gray-400/70 placeholder:text-gray-400/70"
               placeholder="Enter your fullname"
             />
           </div>
