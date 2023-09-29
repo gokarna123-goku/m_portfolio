@@ -47,7 +47,7 @@ function App() {
           <Header />
           <Home />
           <About />
-          {/* <SkillExperience /> */}
+          <SkillExperience />
           <Service />
           <Portfolio />
           <Blog />
