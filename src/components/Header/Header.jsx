@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <div className="w-full h-auto relative flex items-center justify-center">
         {/* For Smaller Devices */}
-        <nav className="w-1/3 bg-slate-950/30 backdrop-blur-[6px] py-6 px-10 shadow flex items-center justify-between fixed bottom-10 rounded-full">
+        {/* <nav className="w-1/3 bg-slate-950/30 backdrop-blur-[6px] py-6 px-10 shadow flex items-center justify-between fixed bottom-10 rounded-full">
           <ul className="w-full h-auto list-none flex items-center justify-between">
             <li>
               <Link
@@ -51,7 +51,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         {/* For Larger Devices */}
         {/* <nav className="w-full bg-slate-950/30 backdrop-blur-[6px] py-6 px-32 shadow flex items-center justify-between fixed top-0">
