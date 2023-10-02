@@ -10,7 +10,7 @@ const SkillExperience = () => {
           <h1 className="text-slate-100 text-center  lg:text-5xl md:text-5xl sm:text-4xl text-4xl font-extrabold tracking-wider mb-12">
             Skill & Experience
           </h1>
-          <div className="flex items-start gap-12 lg:flex-row md:flex-row sm:flex-col flex-col">
+          <div className="flex items-start gap-12 lg:flex-row md:flex-col sm:flex-col flex-col">
             <Skill />
             <Experience />
           </div>

@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <div className="w-full h-auto relative flex items-center justify-center">
         {/* For Smaller Devices */}
-        <nav className="md:w-[30%] sm:w-[50%] w-[90%] bg-slate-900/60 border border-green-400/10 backdrop-blur-[6px] md:py-5 sm:py-4 py-4 md:px-10 sm:px-7 px-5 shadow-lg shadow-gray-800 flex items-center justify-between fixed bottom-10 rounded-full">
+        <nav className="md:w-[30%] sm:w-[50%] w-[90%] bg-slate-900/60 border border-green-400/10 backdrop-blur-[6px] md:py-5 sm:py-4 py-4 md:px-10 sm:px-7 px-5 shadow-lg shadow-gray-800 lg:hidden md:flex sm:flex flex items-center justify-between fixed bottom-10 rounded-full">
           <ul className="w-full h-auto list-none flex items-center justify-between">
             <li>
               <Link
@@ -54,7 +54,7 @@ const Header = () => {
         </nav>
 
         {/* For Larger Devices */}
-        <nav className="w-full bg-slate-950/30 backdrop-blur-[6px] py-6 px-32 shadow lg:flex items-center justify-between fixed top-0">
+        <nav className="w-full bg-slate-950/30 backdrop-blur-[6px] py-6 px-32 shadow lg:flex md:hidden sm:hidden hidden items-center justify-between fixed top-0">
           <Link className="text-green-500 text-2xl font-medium tracking-wider">
             Port<span className="text-green-600">folio</span>
           </Link>
