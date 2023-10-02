@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <div className="w-full h-auto relative flex items-center justify-center">
         {/* For Smaller Devices */}
-        <nav className="w-1/3 bg-slate-900/60 border border-green-400/10 backdrop-blur-[6px] py-5 px-10 shadow flex items-center justify-between fixed bottom-10 rounded-full">
+        <nav className="w-[30%] bg-slate-900/60 border border-green-400/10 backdrop-blur-[6px] py-5 px-10 shadow flex items-center justify-between fixed bottom-10 rounded-full">
           <ul className="w-full h-auto list-none flex items-center justify-between">
             <li>
               <Link
@@ -20,13 +20,13 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/"
-                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+                to="#about"
+                className="text-green-400 bg-slate-900/60 text-xl font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none"
               >
-                <PersonVcard />
+                <PersonVcard className="text-2xl" />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/"
                 className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
@@ -49,7 +49,7 @@ const Header = () => {
               >
                 <PersonRolodex />
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
