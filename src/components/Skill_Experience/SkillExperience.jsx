@@ -8,7 +8,7 @@ const SkillExperience = () => {
       <div className="px-32 py-16 bg-slate-950/5">
         <div className="w-full h-auto">
           <h1 className="text-slate-100 text-center text-5xl font-extrabold tracking-wider mb-12">
-            Explore Skill & Experience
+            Skill & Experience
           </h1>
           <div className="flex items-start gap-12">
             <Skill />
