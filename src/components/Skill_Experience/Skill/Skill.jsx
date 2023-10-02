@@ -4,7 +4,7 @@ const Skill = () => {
   return (
     <div className="skill-box lg:w-[65%] md:w-full sm:w-full w-full  h-auto py-2">
       <div className="flex items-start gap-12 flex-wrap">
-        <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full bg-green-900/20 shadow p-4 rounded-md">
+        <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full bg-green-900/20 shadow lg:p-4 md:p-4 sm:p-8 p-8 rounded-md">
           <h1 className="text-xl font-normal text-gray-400 mb-3">
             Technological Skills
           </h1>
@@ -45,7 +45,7 @@ const Skill = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full bg-green-900/20 shadow p-4 rounded-md">
+        <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full bg-green-900/20 shadow lg:p-4 md:p-4 sm:p-8 p-8 rounded-md">
           <h1 className="text-xl font-normal text-gray-400 mb-3">
             Professional Skills
           </h1>

@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div className="experience-box lg:w-[35%] md:w-full sm:w-full w-full h-auto rounded">
       <h1 className="text-xl font-normal text-gray-400 mb-5">My Experience</h1>
-      <div className="w-full bg-green-900/20 shadow p-4 rounded-md">
+      <div className="w-full bg-green-900/20 shadow lg:p-4 md:p-4 sm:p-8 p-8 rounded-md">
         <h1 className="text-[1.35rem] text-green-400 font-medium tracking-wider mb-1">
           Sr. Front-End Developer
         </h1>
