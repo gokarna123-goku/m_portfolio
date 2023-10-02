@@ -1,12 +1,60 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import { HouseFill, House, PersonVcardFill, PersonVcard, Sliders, Briefcase, BriefcaseFill, PersonRolodex } from "react-bootstrap-icons";
 
 const Header = () => {
   return (
     <>
-      <div className="w-1/2">
-        <nav className="w-full bg-slate-950/30 backdrop-blur-[6px] py-6 px-32 shadow flex items-center justify-between fixed top-0">
+      <div className="w-full h-auto relative flex items-center justify-center">
+        {/* For Smaller Devices */}
+        <nav className="w-1/3 bg-slate-950/30 backdrop-blur-[6px] py-6 px-10 shadow flex items-center justify-between fixed bottom-10 rounded-full">
+          <ul className="w-full h-auto list-none flex items-center justify-between">
+            <li>
+              <Link
+                to="/"
+                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+              >
+                <House />
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
+                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+              >
+                <PersonVcard />
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
+                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+              >
+                <Sliders />
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
+                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+              >
+                <Briefcase />
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
+                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+              >
+                <PersonRolodex />
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* For Larger Devices */}
+        {/* <nav className="w-full bg-slate-950/30 backdrop-blur-[6px] py-6 px-32 shadow flex items-center justify-between fixed top-0">
           <Link className="text-green-500 text-2xl font-medium tracking-wider">
             Port<span className="text-green-600">folio</span>
           </Link>
@@ -60,7 +108,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
     </>
   );
