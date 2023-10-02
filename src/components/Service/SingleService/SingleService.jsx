@@ -29,7 +29,7 @@ import UxUi from "../../../assets/design.png";
 const SingleService = () => {
   return (
     <div className="flex items-start justify-center gap-12 flex-wrap">
-      <div className="lg:w-[30%] md:w-[30%] sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
+      <div className="lg:w-[30%] md:w-full sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
         <div className="w-[60px] h-[60px] flex items-center justify-center gap-1 bg-green-500/40 rounded mb-6">
           <img
             src={Web}
@@ -48,7 +48,7 @@ const SingleService = () => {
           Read more <ArrowRight />
         </Link>
       </div>
-      <div className="lg:w-[30%] md:w-[30%] sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
+      <div className="lg:w-[30%] md:w-full sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
         <div className="w-[60px] h-[60px] flex items-center justify-center gap-1 bg-green-500/40 rounded mb-6">
           <img
             src={App}
@@ -67,7 +67,7 @@ const SingleService = () => {
           Read more <ArrowRight />
         </Link>
       </div>
-      <div className="lg:w-[30%] md:w-[30%] sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
+      <div className="lg:w-[30%] md:w-full sm:w-full w-full flex items-center justify-center flex-col bg-slate-900/60 hover:bg-gray-950/20 ease-out duration-700 shadow rounded lg:py-12 md:py-10 sm:py-8 py-8 px-8">
         <div className="w-[60px] h-[60px] flex items-center justify-center gap-1 bg-green-500/40 rounded mb-6">
           <img
             src={UxUi}
