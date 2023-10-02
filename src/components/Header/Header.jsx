@@ -13,7 +13,7 @@ const Header = () => {
             <li>
               <Link
                 to="/"
-                className="text-green-400 bg-green-400/10 py-1 px-2 rounded-xl block text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+                className="text-green-400 bg-green-400/10  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
                 <House className="text-2xl"/>
               </Link>
@@ -21,35 +21,35 @@ const Header = () => {
             <li>
               <Link
                 to="#about"
-                className="text-green-400 bg-slate-900/60 text-xl font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none"
+                className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
                 <PersonVcard className="text-2xl" />
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
                 to="/"
-                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+                className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
-                <Sliders />
+                <Sliders className="text-2xl" />
               </Link>
             </li>
             <li>
               <Link
                 to="/"
-                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+                className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
-                <Briefcase />
+                <Briefcase className="text-2xl" />
               </Link>
             </li>
             <li>
               <Link
                 to="/"
-                className="text-green-400 text-xl font-medium hover:text-green-400 active:text-green-400 focus:outline-none"
+                className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
-                <PersonRolodex />
+                <PersonRolodex className="text-2xl" />
               </Link>
-            </li> */}
+            </li>
           </ul>
         </nav>
 
