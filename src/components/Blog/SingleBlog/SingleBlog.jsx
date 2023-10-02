@@ -6,7 +6,7 @@ const SingleBlog = () => {
   return (
     <div className="w-full h-auto flex items-start justify-center flex-wrap gap-11 mb-11">
       <div className="lg:w-[30%] md:w-full sm:w-full w-full flex items-start flex-col bg-green-800/20 shadow-md shadow-gray-900 hover:shadow-gray-900/60 ease-out duration-700 rounded-md  overflow-hidden">
-        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[22vh] h-[22vh] bg-green-900/20 lg:mb-5 md:mb-5 sm:mb-3 mb-3 overflow-hidden">
+        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[35vh] h-[25vh] bg-green-900/20 lg:mb-5 md:mb-5 sm:mb-3 mb-3 overflow-hidden">
           <img
             src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
             alt="Portfolio Image"
@@ -31,7 +31,7 @@ const SingleBlog = () => {
         </div>
       </div>
       <div className="lg:w-[30%] md:w-full sm:w-full w-full flex items-start flex-col bg-green-800/20 shadow-md shadow-gray-900 hover:shadow-gray-900/60 ease-out duration-700 rounded-md  overflow-hidden">
-        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[20vh] h-[20vh] bg-green-900/20 lg:mb-5 md:mb-5 sm:mb-3 mb-3 overflow-hidden">
+        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[35vh] h-[25vh] bg-green-900/20 lg:mb-5 md:mb-5 sm:mb-3 mb-3 overflow-hidden">
           <img
             src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
             alt="Portfolio Image"
@@ -56,7 +56,7 @@ const SingleBlog = () => {
         </div>
       </div>
       <div className="lg:w-[30%] md:w-full sm:w-full w-full flex items-start flex-col bg-green-800/20 shadow-md shadow-gray-900 hover:shadow-gray-900/60 ease-out duration-700 rounded-md  overflow-hidden">
-        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[20vh] h-[20vh] bg-green-900/20 lg:mb-5 md:mb-5 sm:mb-3 mb-3 overflow-hidden">
+        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[35vh] h-[25vh] bg-green-900/20 lg:mb-5 md:mb-5 sm:mb-3 mb-3 overflow-hidden">
           <img
             src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
             alt="Portfolio Image"

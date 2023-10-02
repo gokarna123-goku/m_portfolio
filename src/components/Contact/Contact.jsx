@@ -12,14 +12,14 @@ const Contact = () => {
       <h1 className="text-slate-100  lg:text-5xl md:text-5xl sm:text-4xl text-4xl text-center font-extrabold tracking-wider mb-12">
         Contact Me
       </h1>
-      <div className="w-full h-auto flex items-center justify-between lg:flex-row md:flex-row sm:flex-col flex-col gap-10">
-        <div className="lg:w-[45%] md:w-[45%] sm:w-full w-full h-auto">
+      <div className="w-full h-auto flex items-center justify-between lg:flex-row md:flex-col sm:flex-col flex-col gap-10">
+        <div className="lg:w-[45%] md:w-full sm:w-full w-full h-auto">
           <iframe
             className="w-full aspect-[16/13] rounded-md"
             src="https://maps.google.com/maps?hl=en&amp;q=University of Oxford&amp;t=k&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
-        <div className="lg:w-[50%] md:w-[50%] sm:w-full w-full h-auto bg-green-700/10 lg:py-6 md:py-5 sm:py-3 py-3 lg:px-8 md:px-7 sm:px-3 px-3 rounded-md shadow">
+        <div className="lg:w-[50%] md:w-full sm:w-full w-full h-auto bg-green-700/10 lg:py-6 md:py-5 sm:py-3 py-3 lg:px-8 md:px-7 sm:px-3 px-3 rounded-md shadow">
           <h2 className="text-gray-300 text-2xl font-medium mb-5">
             Write a message
           </h2>
