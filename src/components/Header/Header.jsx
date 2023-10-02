@@ -54,7 +54,7 @@ const Header = () => {
         </nav>
 
         {/* For Larger Devices */}
-        {/* <nav className="w-full bg-slate-950/30 backdrop-blur-[6px] py-6 px-32 shadow flex items-center justify-between fixed top-0">
+        <nav className="w-full bg-slate-950/30 backdrop-blur-[6px] py-6 px-32 shadow lg:flex items-center justify-between fixed top-0">
           <Link className="text-green-500 text-2xl font-medium tracking-wider">
             Port<span className="text-green-600">folio</span>
           </Link>
@@ -108,7 +108,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        </nav> */}
+        </nav>
       </div>
     </>
   );
