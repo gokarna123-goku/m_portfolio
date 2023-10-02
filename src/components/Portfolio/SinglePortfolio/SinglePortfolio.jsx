@@ -5,8 +5,8 @@ import { Eye, ArrowRight } from "react-bootstrap-icons";
 const SinglePortfolio = () => {
   return (
     <div className="w-full h-auto flex items-start justify-center flex-wrap gap-10 mb-10">
-      <div className="lg:w-[31%] md:w-[31%] sm:w-full w-full flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
-        <div className="w-full lg:h-[30vh] md:h-[28vh] sm:h-[23vh] h-[23vh] bg-green-900/20 rounded-md mb-5 overflow-hidden">
+      <div className="lg:w-[31%] md:w-full sm:w-full w-full flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
+        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[23vh] h-[23vh] bg-green-900/20 rounded-md mb-5 overflow-hidden">
           <img
             src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
             alt="Portfolio Image"
@@ -27,8 +27,8 @@ const SinglePortfolio = () => {
           Read more <ArrowRight />
         </Link>
       </div>
-      <div className="lg:w-[31%] md:w-[31%] sm:w-full w-full flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
-        <div className="w-full lg:h-[30vh] md:h-[28vh] sm:h-[25vh] h-[25vh] bg-green-900/20 rounded-md mb-5 overflow-hidden">
+      <div className="lg:w-[31%] md:w-full sm:w-full w-full flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
+        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[25vh] h-[25vh] bg-green-900/20 rounded-md mb-5 overflow-hidden">
           <img
             src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
             alt="Portfolio Image"
@@ -49,8 +49,8 @@ const SinglePortfolio = () => {
           Read more <ArrowRight />
         </Link>
       </div>
-      <div className="lg:w-[31%] md:w-[31%] sm:w-full w-full flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
-        <div className="w-full lg:h-[30vh] md:h-[28vh] sm:h-[25vh] h-[25vh] bg-green-900/20 rounded-md mb-5 overflow-hidden">
+      <div className="lg:w-[31%] md:w-full sm:w-full w-full flex items-start flex-col shadow-md shadow-gray-900 hover:shadow-gray-900/60 border-2 border-gray-700/30 ease-out duration-700 rounded-md p-4">
+        <div className="w-full lg:h-[30vh] md:h-[45vh] sm:h-[25vh] h-[25vh] bg-green-900/20 rounded-md mb-5 overflow-hidden">
           <img
             src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
             alt="Portfolio Image"
