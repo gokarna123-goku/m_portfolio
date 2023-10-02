@@ -15,7 +15,7 @@ const Header = () => {
                 to="/"
                 className="text-green-400 bg-green-400/10  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
-                <House className="text-2xl"/>
+                <House className="md:text-2xl sm:text-xl text-xl"/>
               </Link>
             </li>
             <li>
@@ -23,7 +23,7 @@ const Header = () => {
                 to="#about"
                 className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
-                <PersonVcard className="text-2xl" />
+                <PersonVcard className="md:text-2xl sm:text-xl text-xl" />
               </Link>
             </li>
             <li>
@@ -31,7 +31,7 @@ const Header = () => {
                 to="/"
                 className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
-                <Sliders className="text-2xl" />
+                <Sliders className="md:text-2xl sm:text-xl text-xl" />
               </Link>
             </li>
             <li>
@@ -39,7 +39,7 @@ const Header = () => {
                 to="/"
                 className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
-                <Briefcase className="text-2xl" />
+                <Briefcase className="md:text-2xl sm:text-xl text-xl" />
               </Link>
             </li>
             <li>
@@ -47,7 +47,7 @@ const Header = () => {
                 to="/"
                 className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
-                <PersonRolodex className="text-2xl" />
+                <PersonRolodex className="md:text-2xl sm:text-xl text-xl" />
               </Link>
             </li>
           </ul>
