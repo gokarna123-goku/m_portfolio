@@ -21,7 +21,7 @@ const Header = () => {
             <li>
               <Link
                 to="#about"
-                className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2  hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
+                className="text-green-400  text-xl rounded-xl block font-medium py-1 px-2 hover:bg-green-400/10 active:bg-green-400/10 focus:outline-none ease-out duration-700"
               >
                 <PersonVcard className="md:text-2xl sm:text-xl text-xl" />
               </Link>
