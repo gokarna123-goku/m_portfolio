@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <div className="divider lg:my-7 md:my-6 sm:my-4 my-3 w-full h-[0.6px]"></div>
         <div className="flex items-center justify-center text-slate-700 font-2xl font-normal">
-            Copyright &copy; 2023 Goku. All right reserved!
+            Copyright &copy; 2023 <span className="text-green-400/10">Goku</span>. All right reserved!
         </div>
       </div>
     </>
