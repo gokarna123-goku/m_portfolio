@@ -4,7 +4,7 @@ import SinglePortfolio from "./SinglePortfolio/SinglePortfolio";
 const Portfolio = () => {
   return (
     <>
-      <div className="lg:px-32 md:px-16 sm:px-5 px-5 p-16 ">
+      <div className="lg:px-32 md:px-16 sm:px-5 px-5 p-16">
         <h1 className="text-slate-100 lg:text-5xl md:text-5xl sm:text-4xl text-4xl text-center font-extrabold tracking-wider mb-12">
           Our Works
         </h1>
