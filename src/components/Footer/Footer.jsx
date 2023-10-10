@@ -15,7 +15,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-slate-950 lg:px-32 md:px-16 sm:px-10 px-10 py-16">
+      <div className="w-full bg-slate-950 lg:px-32 md:px-16 sm:px-5 px-5 py-16">
         <div className="flex items-center justify-center lg:flex-row md:flex-row sm:flex-col flex-col">
           <h1 className="text-slate-400  lg:text-5xl md:text-5xl sm:text-4xl text-4xl font-extrabold tracking-widest lg:mr-16 md:mr-15 sm:mr-0 mr-0 lg:mb-0 md:mb-1 sm:mb-10 mb-10">
             Have a project?

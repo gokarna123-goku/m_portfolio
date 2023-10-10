@@ -6,7 +6,7 @@ import { ArrowUpRight } from "react-bootstrap-icons";
 const Home = () => {
   return (
     <>
-      <div className="hero_img lg:px-32 md:px-16 sm:px-4 px-4 relative">
+      <div className="hero_img lg:px-32 md:px-16 sm:px-5 px-5 relative">
         {/* <div className="animate-ping h-16 w-16 rounded-full absolute top-80 left-10 bg-sky-400 duration-1000 ease-out delay-1000 opacity-5"></div> */}
         <div className="lg:w-2/4 md:w-2/3 sm:w-full lg:mt-8 md:mt-5 sm:mt-1 mt-0">
           {/* <h6 className="text-slate-400 mb-2 text-xl">Hey 👋 There, It's</h6> */}
