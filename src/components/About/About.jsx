@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/about.png";
+import AboutImg from "../../assets/about1.png";
 import { Check } from "react-bootstrap-icons";
 
 const About = () => {
